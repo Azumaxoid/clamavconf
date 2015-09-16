@@ -1,0 +1,3 @@
+#!/bin/bash
+clamscan -ri --exclude-dir=^/sys\|^/proc\|^/dev / | mail -s "ClamAV Scan Results for `date +%D`" YOUR_ADDRESS
+
