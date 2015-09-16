@@ -1,0 +1,3 @@
+#!/bin/sh
+/usr/bin/freshclam --daemon-notify --quiet --log=/var/log/freshclam.log
+
